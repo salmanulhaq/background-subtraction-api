@@ -3,8 +3,8 @@ Image background subtraction API provides a complete API which can be used to re
 
 Here's sample input and output images:
 
-![](http://i.imgur.com/mBCE87y.jpg =450x)
-![](http://i.imgur.com/2V5SQEa.png =450x)
+![](http://i.imgur.com/mBCE87y.jpg =300x)
+![](http://i.imgur.com/2V5SQEa.png =300x)
 
 #Installation
 There's a *install.sh* script included, just run it on a vanilla Ubuntu 14.04 and it would install all pre-requisites and build the code and start the NodeJS API server and start listening on port 4000.
