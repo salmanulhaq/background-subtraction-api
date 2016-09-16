@@ -122,7 +122,7 @@ BGSubError subtract(string url, double& contentLength, vector<uchar>& outputEnco
 		}
 
 		grabCut(input, mask, Rect(10,10,input.cols-10,input.rows-10), bg, fg, 0, GC_INIT_WITH_RECT);
-		grabCut(input, mask, Rect(), bg, fg, 4, GC_EVAL);
+		grabCut(input, mask, Rect(), bg, fg, 8, GC_EVAL);
 		compare(mask, GC_PR_FGD, mask, CMP_EQ);
 
 		int dilation_size = 1;
