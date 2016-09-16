@@ -17,6 +17,6 @@ local_inc=${local_prefix}/include
 includedir_old=${local_prefix}/include/opencv
 includedir_new=${local_prefix}/include
 
-Libs: -lopencv_video -lopencv_objdetect -lopencv_highgui.so -lopencv_imgproc.so -lopencv_core.so /usr/lib/x86_64-linux-gnu/libcurl.so
+Libs: opencv_video opencv_objdetect opencv_highgui opencv_imgproc opencv_core /usr/lib/x86_64-linux-gnu/libcurl.so
 
 Cflags: -I${includedir_old} -I${includedir_new} -I${inc} -I${local_inc}
