@@ -12,5 +12,4 @@ There's a *install.sh* script included, just run it on a vanilla Ubuntu 14.04 an
 ##Usage
 Once the code is deployed, you can start using the API as:
 
-```js
-http://localhost:4000/cut?url=http://i.imgur.com/mBCE87y.jpg```
+![](http://localhost:4000/cut?url=http://i.imgur.com/mBCE87y.jpg "http://localhost:4000/cut?url=http://i.imgur.com/mBCE87y.jpg")
