@@ -1,0 +1,22 @@
+# Package Information for pkg-config
+
+Name: background_subtraction
+Description: Background subtraction API
+Version: 0.1
+
+prefix=/usr
+local_prefix=/usr/local
+
+lib_prefix=${prefix}/lib
+lib64_prefix=${prefix}/lib/x86_64-linux-gnu
+local_lib_prefix=${local_prefix}/lib
+
+inc=${prefix}/include
+local_inc=${local_prefix}/include
+
+includedir_old=${local_prefix}/include/opencv
+includedir_new=${local_prefix}/include
+
+Libs: ${local_prefix}/lib/libopencv_videoio.so ${local_prefix}/lib/libopencv_video.so ${local_prefix}/lib/libopencv_imgcodecs.so ${local_prefix}/lib/libopencv_objdetect.so ${local_prefix}/lib/libopencv_highgui.so ${local_prefix}/lib/libopencv_imgproc.so ${local_prefix}/lib/libopencv_core.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libdl.so /usr/lib/x86_64-linux-gnu/libm.so /usr/lib/x86_64-linux-gnu/libpthread.so /usr/lib/x86_64-linux-gnu/librt.so /usr/lib/x86_64-linux-gnu/libcurl.so
+
+Cflags: -I${includedir_old} -I${includedir_new} -I${inc} -I${local_inc}

@@ -1,0 +1,14 @@
+{
+  "name": "bgsub",
+  "version": "0.1.0",
+  "description": "Node.js binding for background subtraction module",
+  "scripts": {
+    "test": "node ./test/main.js",
+    "install": "node-gyp clean rebuild && sudo cp build/Release/bgsub.node /usr/lib"
+  },
+  "author": "Salman Ul Haq <salman@programmerfish.com>",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "~1.8.4"
+  }
+}
