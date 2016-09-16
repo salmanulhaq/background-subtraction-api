@@ -1,16 +1,12 @@
 {
   "name": "bgsub-api",
   "version": "0.1.0",
-  "description": "API for bgsub background subtraction module",
+  "description": "API for image background subtraction module",
   "readme": "README.md",
   "repository": {
       "type": "git",
-      "url": "https://github.com/salmanulhaq/bgsub"
+      "url": "https://github.com/salmanulhaq/background-subtraction-api"
     },
-  "scripts": {
-    "test": "node ./server.js",
-    "install": "npm install"
-  },
   "author": "Salman Ul Haq <salman@programmerfish.com>",
   "gypfile": true,
   "dependencies": {
