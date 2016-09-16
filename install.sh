@@ -1,4 +1,3 @@
-#!sh
 echo "Starting installation of image background subtraction module"
 sudo apt-get update
 sudo apt-get install -y build-essential libopencv-dev libcurl4-gnutls-dev nodejs npm
